@@ -1,0 +1,46 @@
+/*Footer*/
+.footer {
+    background-color: #F1392C;
+    color: black;
+    padding: 40px 20px;
+    display: flex;              /* make the footer a flex container */
+    justify-content: flex-start; /* logo on left, columns next */
+    align-items: flex-start;     /* align items at the top */
+    gap: 120px;                  /* space between logo and columns */
+    flex-wrap: wrap;            /* wrap on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;        /* horizontal columns */
+    margin-top: -20px;  /* move columns up by 10px */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;                  /* space between each column */
+}
+
+.footer-column {
+    min-width: 200px;
+    text-align: center; 
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 20px;
+    margin: 8px 0;         /* vertical space between paragraphs */
+    line-height: 1.6;      /* spacing between lines inside a paragraph */
+}
+
+
+
+
